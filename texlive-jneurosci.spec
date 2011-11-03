@@ -1,3 +1,9 @@
+# revision 17346
+# category Package
+# catalog-ctan /biblio/bibtex/contrib/jneurosci
+# catalog-date 2010-03-06 20:55:14 +0100
+# catalog-license lppl
+# catalog-version 1.00
 Name:		texlive-jneurosci
 Version:	1.00
 Release:	1
@@ -42,6 +48,7 @@ style; a BibTeX style and a LaTeX package are provided.
 %doc %{_texmfdistdir}/doc/latex/jneurosci/README
 %doc %{_texmfdistdir}/doc/latex/jneurosci/jneurosci.pdf
 %doc %{_texmfdistdir}/doc/latex/jneurosci/jneurosci.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ style; a BibTeX style and a LaTeX package are provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
