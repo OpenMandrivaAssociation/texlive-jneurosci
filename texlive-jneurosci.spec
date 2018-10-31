@@ -6,7 +6,7 @@
 # catalog-version 1.00
 Name:		texlive-jneurosci
 Version:	1.00
-Release:	10
+Release:	11
 Summary:	BibTeX style for the Journal of Neuroscience
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/jneurosci
