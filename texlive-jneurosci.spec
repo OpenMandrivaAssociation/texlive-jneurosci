@@ -1,6 +1,6 @@
 Name:		texlive-jneurosci
 Version:	17346
-Release:	1
+Release:	2
 Summary:	BibTeX style for the Journal of Neuroscience
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/jneurosci
