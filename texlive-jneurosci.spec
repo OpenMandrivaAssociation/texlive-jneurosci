@@ -3,7 +3,7 @@ Version:	17346
 Release:	2
 Summary:	BibTeX style for the Journal of Neuroscience
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/jneurosci
+URL:		https://www.ctan.org/tex-archive/biblio/bibtex/contrib/jneurosci
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jneurosci.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jneurosci.doc.r%{version}.tar.xz
